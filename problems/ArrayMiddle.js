@@ -16,8 +16,8 @@ numbers:
 */
 
 function middle (numbers) {
-  if (numbers.length % 2 == 0) {
-  	return (numbers[(numbers.length / 2) - 1] + numbers[(numbers.length / 2)]) / 2;
-  }
-  return numbers[Math.floor(numbers.length / 2)]
+	if (numbers.length % 2 == 0) {
+		return (numbers[(numbers.length / 2) - 1] + numbers[(numbers.length / 2)]) / 2;
+	}
+	return numbers[Math.floor(numbers.length / 2)];
 }
